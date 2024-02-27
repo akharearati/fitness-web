@@ -1,0 +1,98 @@
+body {
+    background: url(img/pexels-scott-webb-28054.jpg);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.left {
+    display: inline-block;
+    line-height: 26px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 40px;
+}
+
+.mid {
+    display: inline-block;
+    width: 30%;
+    font-size: 80px;
+}
+
+.right {
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn {
+    margin: 50px;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    border: 2px solid gray;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+}
+
+.container {
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    border: 2px solid black;
+    margin: auto;
+    width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+}

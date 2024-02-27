@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website - Track Workout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fitness Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exercises.html">Exercises</a></li>
+                <li><a href="workout.html">Track Workout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="workout">
+        <h2>Track Your Workout</h2>
+        <form action="#" method="post">
+            <label for="exercise">Exercise:</label>
+            <select name="exercise" id="exercise">
+                <option value="Squats">Squats</option>
+                <option value="Push-ups">Push-ups</option>
+                <option value="Planks">Planks</option>
+                <!-- Add more exercises -->
+            </select>
+            <label for="sets">Sets:</label>
+            <input type="number" id="sets" name="sets" min="1">
+            <label for="reps">Reps:</label>
+            <input type="number" id="reps" name="reps" min="1">
+            <button type="submit">Add Exercise</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness Website</p>
+    </footer>
+</body>
+</html>
